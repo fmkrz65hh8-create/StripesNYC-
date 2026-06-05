@@ -1,0 +1,3 @@
+# Frontend
+
+STRIPESNYC frontend application.
