@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function CrewSyncPage() {
   return (
     <main>
@@ -18,6 +20,10 @@ export default function CrewSyncPage() {
           <li>Emergency crew alerts</li>
           <li>Assignment change notifications</li>
         </ul>
+      </section>
+
+      <section>
+        <Link href="/">Back to Home</Link>
       </section>
     </main>
   );
