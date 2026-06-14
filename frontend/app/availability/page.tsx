@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function AvailabilityPage() {
   return (
     <main>
@@ -18,6 +20,10 @@ export default function AvailabilityPage() {
           <li>Confirm assignment readiness</li>
           <li>Notify assignors of schedule changes</li>
         </ul>
+      </section>
+
+      <section>
+        <Link href="/">Back to Home</Link>
       </section>
     </main>
   );
