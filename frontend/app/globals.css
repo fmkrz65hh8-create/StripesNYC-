@@ -57,4 +57,20 @@ button:last-child {
 li {
   margin-bottom: 10px;
   font-size: 18px;
+}a {
+  color: #facc15;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  padding-left: 24px;
+}
+
+div {
+  margin-top: 20px;
 }
