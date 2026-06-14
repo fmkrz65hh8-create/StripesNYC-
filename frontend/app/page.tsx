@@ -24,7 +24,7 @@ export default function HomePage() {
         <h2>MVP Features</h2>
         <ul>
           <li>
-            <Link href="/dashboard">View game assignments</Link>
+            <Link href="/dashboard">View official dashboard</Link>
           </li>
           <li>
             <Link href="/availability">Submit crew availability</Link>
@@ -38,6 +38,19 @@ export default function HomePage() {
           <li>
             <Link href="/training">Access training resources</Link>
           </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Backend API Status</h2>
+        <p>
+          STRIPESNYC backend API routes are planned and ready for connection.
+        </p>
+
+        <ul>
+          <li>GET /api/health</li>
+          <li>GET /api/officials</li>
+          <li>GET /api/assignments</li>
         </ul>
       </section>
     </main>
