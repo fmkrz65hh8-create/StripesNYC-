@@ -43,3 +43,9 @@ The first version should focus on:
 3. Game assignment display
 4. Crew communication
 5. Assignor dashboard
+## API Connection
+
+The frontend includes an API helper at:
+
+```txt
+lib/api.ts
