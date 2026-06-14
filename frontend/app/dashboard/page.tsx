@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function DashboardPage() {
   return (
     <main>
@@ -12,11 +14,23 @@ export default function DashboardPage() {
       <section>
         <h2>Today&apos;s Crew Tools</h2>
         <ul>
-          <li>Upcoming game assignments</li>
-          <li>Availability status</li>
-          <li>CrewSync Live™ messages</li>
-          <li>Training reminders</li>
+          <li>
+            <Link href="/availability">Update availability status</Link>
+          </li>
+          <li>
+            <Link href="/crewsync">Open CrewSync Live™ messages</Link>
+          </li>
+          <li>
+            <Link href="/profile">Manage official profile</Link>
+          </li>
+          <li>
+            <Link href="/training">Review training reminders</Link>
+          </li>
         </ul>
+      </section>
+
+      <section>
+        <Link href="/">Back to Home</Link>
       </section>
     </main>
   );
