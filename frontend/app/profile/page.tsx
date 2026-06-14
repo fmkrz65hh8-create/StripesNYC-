@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function ProfilePage() {
   return (
     <main>
@@ -18,6 +20,10 @@ export default function ProfilePage() {
           <li>Availability preferences</li>
           <li>Emergency contact information</li>
         </ul>
+      </section>
+
+      <section>
+        <Link href="/">Back to Home</Link>
       </section>
     </main>
   );
