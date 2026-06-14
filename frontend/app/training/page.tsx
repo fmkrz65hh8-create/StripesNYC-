@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function TrainingPage() {
   return (
     <main>
@@ -19,6 +21,11 @@ export default function TrainingPage() {
           <li>Penalty enforcement review</li>
         </ul>
       </section>
+
+      <section>
+        <Link href="/">Back to Home</Link>
+      </section>
     </main>
   );
+}
 }
