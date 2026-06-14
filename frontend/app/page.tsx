@@ -42,17 +42,4 @@ export default function HomePage() {
       </section>
 
       <section>
-        <h2>Backend API Status</h2>
-        <p>
-          STRIPESNYC backend API routes are planned and ready for connection.
-        </p>
-
-        <ul>
-          <li>GET /api/health</li>
-          <li>GET /api/officials</li>
-          <li>GET /api/assignments</li>
-        </ul>
-      </section>
-    </main>
-  );
-}
+        <ApiStatus />
