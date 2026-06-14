@@ -1,0 +1,16 @@
+{
+  "name": "stripesnyc-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backend API for STRIPESNYC officials, assignors, crews, and CrewSync Live.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest"
+  }
+}
