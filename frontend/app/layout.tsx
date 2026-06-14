@@ -1,4 +1,4 @@
-export const metadata = {
+import "./globals.css"; const metadata = {
   title: "STRIPESNYC",
   description: "CrewSync Live for football officials, assignors, and crews.",
 };
