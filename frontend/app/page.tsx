@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import ApiStatus from "../lib/components/ApiStatus";
 export default function HomePage() {
   return (
     <main>
