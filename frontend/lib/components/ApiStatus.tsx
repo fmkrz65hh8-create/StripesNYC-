@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { getApiHealth } from "../lib/api";
+import { getApiHealth } from "../api";
 
 export default function ApiStatus() {
   const [status, setStatus] = useState("checking");
