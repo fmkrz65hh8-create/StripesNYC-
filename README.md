@@ -101,15 +101,11 @@ The first version of STRIPESNYC focuses on:
 
 ## Local Development
 
-Frontend:
+To run STRIPESNYC locally, you will need Node.js installed on your computer.
 
-```bash
-cd frontend
-npm install
-npm run dev
-```
+### Run the Backend
 
-Backend:
+Open a terminal and run:
 
 ```bash
 cd backend
@@ -117,16 +113,55 @@ npm install
 npm run dev
 ```
 
-Backend local URL:
+The backend will run at:
 
 ```txt
 http://localhost:4000
 ```
 
-Frontend local URL:
+Test backend routes:
+
+```txt
+http://localhost:4000/
+http://localhost:4000/api/health
+http://localhost:4000/api/officials
+http://localhost:4000/api/assignments
+```
+
+### Run the Frontend
+
+Open a second terminal and run:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+The frontend will run at:
 
 ```txt
 http://localhost:3000
+```
+
+### Frontend to Backend Connection
+
+The frontend API helper is located at:
+
+```txt
+frontend/lib/api.ts
+```
+
+The API status component is located at:
+
+```txt
+frontend/lib/components/ApiStatus.tsx
+```
+
+The Home page uses the API status component to check the backend health route:
+
+```txt
+GET /api/health
 ```
 
 ## Vision
